@@ -13,7 +13,8 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: skeletyl_left
-  - board: nice_nano_v2
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n -DCONFIG_ZMK_STUDIO_LOCK_ON_DISCONNECT=n
+  - board: nice_nano//zmk
     shield: skeletyl_right
