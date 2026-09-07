@@ -54,9 +54,9 @@
 
         LOWER {
             bindings = <
-&kp N1     &kp N2  &kp N3         &kp N4         &kp N5       &kp N6          &kp N7  &kp N8         &kp N9            &kp N0
+&kp N1     &kp N2  &kp N3         &kp N4         &kp N5       &kp N6          &kp N7  &kp N8         &kp N9            &hm EQUAL N0
 &kp GRAVE  &none   &none          &none          &kp LC(A)    &kp MINUS       &none   &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none      &none   &kp LS(LC(C))  &kp LS(LC(V))  &none        &none           &none   &none          &none             &kp NON_US_BACKSLASH
+&none      &none   &kp LS(LC(C))  &kp LS(LC(V))  &none        &none           &none   &none          &none             &kp BACKSLASH
                    &trans         &trans         &trans       &kp LEFT_SHIFT  &mo 3   &kp RIGHT_GUI
             >;
 
