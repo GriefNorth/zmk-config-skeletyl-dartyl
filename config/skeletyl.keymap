@@ -43,10 +43,10 @@
 
         QWERTY {
             bindings = <
-&kp Q                 &kp W  &kp E         &kp R    &kp T        &kp Y      &kp U            &kp I            &kp O              &kp P
-&kp A                 &kp S  &kp D         &lt 4 F  &kp G        &kp H      &hm RIGHT_GUI J  &hm RIGHT_ALT K  &hm RIGHT_SHIFT L  &hm SEMI SQT
-&hm LG(LEFT_SHIFT) Z  &kp X  &kp C         &kp V    &lt 5 B      &kp N      &kp M            &kp COMMA        &kp PERIOD         &hm RCTRL SLASH
-                             &kp LEFT_GUI  &mo 1    &kp SPACE    &kp ENTER  &mo 2            &kp RIGHT_SHIFT
+&kp Q             &kp W  &kp E         &kp R    &kp T        &kp Y      &kp U  &kp I            &kp O       &kp P
+&kp A             &kp S  &kp D         &lt 4 F  &kp G        &kp H      &kp J  &kp K            &kp L       &hm SEMI SQT
+&hm LEFT_SHIFT Z  &kp X  &kp C         &kp V    &lt 5 B      &kp N      &kp M  &kp COMMA        &kp PERIOD  &hm RCTRL SLASH
+                         &kp LEFT_GUI  &mo 1    &kp SPACE    &kp ENTER  &mo 2  &kp RIGHT_SHIFT
             >;
 
             label = "QWERTY";
