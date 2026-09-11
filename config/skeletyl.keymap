@@ -43,10 +43,10 @@
 
         QWERTY {
             bindings = <
-&kp Q             &kp W  &kp E         &kp R    &kp T        &kp Y      &kp U  &kp I            &kp O       &kp P
-&kp A             &kp S  &kp D         &lt 4 F  &kp G        &kp H      &kp J  &kp K            &kp L       &hm SEMI SQT
-&hm LEFT_SHIFT Z  &kp X  &kp C         &kp V    &lt 5 B      &kp N      &kp M  &kp COMMA        &kp PERIOD  &hm RCTRL SLASH
-                         &kp LEFT_GUI  &mo 1    &kp SPACE    &kp ENTER  &mo 2  &kp RIGHT_SHIFT
+&kp Q             &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I            &kp O       &kp P
+&kp A             &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K            &kp L       &hm SEMI SQT
+&hm LEFT_SHIFT Z  &kp X  &kp C         &kp V  &lt 5 B      &kp N      &kp M  &kp COMMA        &kp PERIOD  &hm RCTRL SLASH
+                         &kp LEFT_GUI  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp RIGHT_SHIFT
             >;
 
             label = "QWERTY";
@@ -56,8 +56,8 @@
             bindings = <
 &kp N1     &kp N2  &kp N3         &kp N4         &kp N5       &kp N6          &kp N7  &kp N8         &kp N9            &hm EQUAL N0
 &kp GRAVE  &none   &none          &none          &kp LC(A)    &kp MINUS       &none   &none          &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none      &none   &kp LS(LC(C))  &kp LS(LC(V))  &none        &none           &none   &none          &none             &kp BACKSLASH
-                   &trans         &trans         &trans       &kp LEFT_SHIFT  &mo 3   &kp RIGHT_GUI
+&trans     &none   &kp LS(LC(C))  &kp LS(LC(V))  &none        &none           &none   &none          &none             &kp BACKSLASH
+                   &trans         &trans         &trans       &kp LEFT_SHIFT  &mo 4   &kp RIGHT_GUI
             >;
 
             label = "LOWER";
@@ -67,7 +67,7 @@
             bindings = <
 &kp ESC  &none  &none   &none   &none        &kp DELETE         &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
 &kp TAB  &none  &none   &none   &none        &kp LS(SEMICOLON)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN
-&none    &none  &none   &none   &kp EQUAL    &kp LG(SPACE)      &kp PAGE_UP     &none           &kp PAGE_DOWN    &trans
+&trans   &none  &none   &none   &kp EQUAL    &kp LG(SPACE)      &kp PAGE_UP     &none           &kp PAGE_DOWN    &trans
                 &trans  &trans  &trans       &trans             &trans          &trans
             >;
 
